@@ -48,7 +48,7 @@
                 {#each share as word, j}
                   {#if word}
                     <div class="bg-surface p-2 rounded">
-                      <span class="font-mono">{j + 1}: {word}</span>
+                      <span class="font-mono">{words.indexOf(word) + 1}: {word}</span>
                     </div>
                   {/if}
                 {/each}
